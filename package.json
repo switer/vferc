@@ -1,0 +1,22 @@
+{
+  "name": "vferc",
+  "version": "1.0.0",
+  "description": "vfe project run conf",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/switer/vferc.git"
+  },
+  "keywords": [
+    "vfe"
+  ],
+  "author": "switer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/switer/vferc/issues"
+  },
+  "homepage": "https://github.com/switer/vferc"
+}
