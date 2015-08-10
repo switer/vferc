@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+var commander = require('commander')
+var open = require('open')
+var inquirer = require('inquirer')
+var meta = require('../package.json')
+var vferc = require('../index')
+
+commander
+	.version(meta.version)
+
+commander
+	.command('open')
+	.description('Open `.vfercs/` director')
+	.action(function () {
+		open(vferc.dir)
+	})
+
+commander
+	.command('use')
+	.description('use rc')
+	.action(function () {
+		vferc.use('default')
+	})
+
+console.log(commander)
+
+commander.parse(process.argv)

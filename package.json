@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/switer/vferc/issues"
   },
-  "homepage": "https://github.com/switer/vferc"
+  "homepage": "https://github.com/switer/vferc",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "open": "0.0.5"
+  }
 }
