@@ -21,6 +21,6 @@
   "homepage": "https://github.com/switer/vferc",
   "dependencies": {
     "mkdirp": "^0.5.1",
-    "open": "0.0.5"
+    "open": "7.0.0"
   }
 }
